@@ -8,3 +8,5 @@ Used everything I learned in the **HTML and CSS Fundamentals** Section.
 - Color palette
 - A Google Font
 - hover pseudo-class
+
+It’s live right here: https://gkhometownwebsite.netlify.app/ 🎉
