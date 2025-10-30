@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    background-color: #F1FAEE;
+    text-align: center;
+    color: #F1FAEE;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+}
+
+.hero {
+    background-image: url("images/kozani.jpg");
+    background-size: cover;
+    padding: 10px 0 250px 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#title {
+    background: #184D7Aff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#sub-title {
+    margin: 0;
+    background: #8396B1ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a { 
+    text-decoration: none; 
+    color: #184D7Aff;
+}
+
+a:hover {
+    color: #5B4C24;
+}
+
+h3 , h4 , p {
+    color: #184D7Aff;
+}
+
+.activity-title {
+    font-size: 60px;
+}
+
+.activity-section {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.activity-block {
+    width: 20rem;
+    margin: 1rem;
+}
+
+.activity-img {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+.activity-img:hover {
+    filter: brightness(1.07);
+}
+
+.activity-subtitle  {
+    font-size: 30px;
+}
+
+.activity-p {
+    font-size: 20px;
+    color: #718095;
+}
+
+.guide-section {
+    background: white;
+    border: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.guide-block {
+    background-color: #A8DADC;
+    width: 450px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px solid #184D7Aff;
+    margin: 20px;
+}
